@@ -18,7 +18,7 @@ nav#menu {
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	font-size: 15pt;
+	font-size: 2.5vh;
     text-align: center;
 	background-color: black;
     margin: auto;
@@ -28,7 +28,7 @@ nav#menu li{
 	display: inline-block;
 	background-color: black;
 	padding: auto;
-	margin: 20px;
+	margin: 2vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bolder;
@@ -64,12 +64,12 @@ div#intro img{
     text-align: center;
     padding: 0;
     top: 10%;
-    width: 30%;
+    width: 30vw;
     
 }
 
-.beneficios {
 
+.item {
     
     border-top: 5px;
     margin: none;
@@ -78,38 +78,45 @@ div#intro img{
     text-align: left;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    height: 450px;
+    font-size: 3.5vh;
+    height: 40vh;
 
-}
-
-.item-esquerda {
-    
-    border-top: 5px;
-    margin: none;
-    
-    padding: none;
-    text-align: left;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    height: 450px;
-
-}
-
-.img{
-    height: 100%;
-    width: 40%;
-    float: left;
-    background-color: black;
 }
 
 #txt1 {
     
-    width: 40%;
-    height: 100px;
+    width: 40vw;
+    height: 15vh;
     float: right;
     margin: none none none none;
     padding: 5% 10%  
 
 }
+
+
+#txt2 {
+    
+    width: 40vw;
+    height: 15vh;
+    float: left;
+    margin: none none none none;
+    padding: 5% 10%  
+
+}
+
+.img{
+    height: 40vh;
+    width: 35vw;
+    float: left;
+    background-color: black;
+}
+
+#img2{
+
+    height: 40vh;
+    width: 35vw;
+    float: right;
+    background-color: black;
+}
+
+
