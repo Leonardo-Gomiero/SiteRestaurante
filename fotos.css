@@ -59,7 +59,7 @@ ul#album-fotos li {
 	width: 200px;
 	height: 200px;
 	margin: 10px;
-	border: 5px solid black;
+	border: 5px solid rgb(0, 181, 226);
 	background-color: white;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
 	transform: all 0.3s ease-in;
@@ -88,7 +88,6 @@ ul#album-fotos li span {
 	font-size: 9pt;
 	line-height: 370px;
 	padding: 5px;
-	
 
 }
 
@@ -98,7 +97,7 @@ ul#album-fotos li#foto01 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
-	
+	border-radius: 8px;
 	
 }
 
@@ -108,6 +107,7 @@ ul#album-fotos li#foto01:hover {
 	background-size: 200px 200px;
 	transform: scale(1.5);
 	transition: 0.4s;
+	
 
 }
 
@@ -117,6 +117,7 @@ ul#album-fotos li#foto02 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
+	border-radius: 8px;
 	
 }
 
@@ -135,6 +136,7 @@ ul#album-fotos li#foto03 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
+	border-radius: 8px;
 	
 }
 
@@ -153,6 +155,7 @@ ul#album-fotos li#foto04 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
+	border-radius: 8px;
 	
 }
 
@@ -171,6 +174,7 @@ ul#album-fotos li#foto05 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
+	border-radius: 8px;
 	
 }
 
@@ -189,6 +193,7 @@ ul#album-fotos li#foto06 {
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: white;
+	border-radius: 8px;
 	
 }
 
