@@ -45,33 +45,10 @@ nav#menu a:hover{
     transition: 0.3s;
 }
 
-div#intro {
-    z-index: -1;
-    background-size: 100%;
-    background-position: center;
-    background-image: url("imagens/ham-background.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-    border: none;
-    padding: 19px 0 50px 0;
-    background-attachment: fixed;
-    
-}
-
-div#intro img{
-    
-    position: relative;
-    text-align: center;
-    padding: 0;
-    top: 10%;
-    width: 30vw;
-    
-}
-
 
 .item {
     
-    border-top: 5px;
+    border-top: 0px;
     margin: none;
     
     padding: none;
@@ -83,7 +60,7 @@ div#intro img{
 
 }
 
-#txt1 {
+.txt1 {
     
     width: 40vw;
     height: 15vh;
@@ -94,7 +71,7 @@ div#intro img{
 }
 
 
-#txt2 {
+.txt2 {
     
     width: 40vw;
     height: 15vh;
@@ -111,7 +88,7 @@ div#intro img{
     background-color: black;
 }
 
-#img2{
+.img2{
 
     height: 40vh;
     width: 35vw;
