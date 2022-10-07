@@ -160,7 +160,6 @@ div#intro img{
     font-size: 20pt;
 
     padding: 5% 0 5% 0;
-    text-align: center;
 }
 
 #inclusao-img {
@@ -202,4 +201,22 @@ div#intro img{
 #video iframe {
 
     width: 600px;
+}
+
+
+#rodape{
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.logo-rodape {
+    width: 30vh;
+}
+
+.rede-rodape{
+
+    width:10vh;
+    align-items: center;
+    vertical-align: middle;
 }
