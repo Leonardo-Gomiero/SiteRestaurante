@@ -97,3 +97,23 @@ nav#menu a:hover{
 }
 
 
+#rodape{
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-right: 10vh;
+}
+
+.logo-rodape {
+    width: 30vh;
+}
+
+.rede-rodape{
+
+    width:10vh;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10vh;
+}
+
+
