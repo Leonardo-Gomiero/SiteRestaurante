@@ -6,7 +6,7 @@
             <title>Aula de Dev WEB</title>
         </head>
     
-        <body>
+        <body onload="alert('Bem vindo à página de contato!')">
             
             <header>
                 <nav id="menu">
@@ -27,8 +27,8 @@
                             document.write(dia[data.getDay() + ", " + data.getDate() + " de" + data.getYear()])
                         </script>
                     </p>
-                    <h4 class="preencha">Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe responderá o mais breve possível.</h4>
-                    <h4 class="preencha2">Nosso horário de funcionamento : terça à domingo das 10h às 21h | (11) 4002-8922 </h4>
+                    <h4 class="texto"><br> Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe responderá o mais breve possível.</h4>
+                    <h4 class="texto">Nosso horário de funcionamento : terça à domingo das 10h às 21h | (11) 4002-8922 </h4>
                     <form name="frmContato" method="get" action="mailto:leoleonardo2000@mail.com" target="_blank">
                         <fieldset>
                             <legend>Dados Pessoais</legend>
@@ -64,11 +64,10 @@
         
                             <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades?</label>
                         
-                            <input type="submit" value="Enviar formulário" class="enviar">
+                            <input onclick="alert('Formulário enviado com sucesso!')" type="submit" value="Enviar formulário" class="enviar">
                         
                     </form>
                 </section>
-                
             </main>
             
 
