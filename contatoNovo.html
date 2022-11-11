@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="contatoNovo.css">
         <meta charset="UTF-8" />
         <title>Aula de Dev WEB</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script>
             alert("Utilize esse formulário para se comunicar conosco!");
 
@@ -72,24 +73,9 @@
                         </label>
                     </fieldset>
 
-                    <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades?</label>
+                    <label><input type="checkbox" class="chk"> Gostaria de receber novidades por email?</label>
+                    <input type="submit" value="Enviar fomulário" class="enviar">
 
-                    <input onclick="sendEmail()" type="submit" value="Enviar formulário"
-                        class="enviar">
-
-                    <script src="https://smtpjs.com/v3/smtp.js"></script>
-                    <script>
-                        function sendEmail(){
-                            Email.send({
-                                secureToken: "83d36b84-4b98-42a6-adb5-d68ec16cae72",
-                                To: "leoleonardo2000@gmail.com",
-                                Subject : "Novo Contato de Siri Cascudo",
-                                Body: "Mensagem:" + document.getElementById("mensagem")
-                            }).then(
-                                message => alert("Mensagem enviada")
-                            );
-                        }
-                    </script>
                 </form>
             </section>
         </main>
